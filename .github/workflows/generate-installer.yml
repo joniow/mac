@@ -31,7 +31,7 @@ env:
 jobs:
   build:
     runs-on: macos-latest
-    if: github.repository == 'joniow/Download-macOS'
+    if: github.repository == 'joniow/mac'
     steps:
       - uses: actions/checkout@v4
       
